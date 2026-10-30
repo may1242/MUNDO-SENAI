@@ -1,0 +1,8 @@
+1;Química
+2;Artes Cênicas
+3;Pâtisserie
+4;Produção de Cachaça
+5;Astrobiologia
+6;Estudos Vikings e Nórdicos
+7;Ciência dos Gramados
+8;Luteiro
