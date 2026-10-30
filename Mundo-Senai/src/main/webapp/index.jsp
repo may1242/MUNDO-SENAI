@@ -525,7 +525,17 @@
 
         setInterval(atualizarTimer, 1000);
         atualizarTimer();
-    </script>
 
+    window.addEventListener('keydown', function(e) {
+            if (e.key === 'r' || e.key === 'R') {
+                localStorage.removeItem('votacao_tempo');
+                localStorage.removeItem('votacao_finalizada');
+                localStorage.removeItem('confetti_trigger');
+                alert('Timer e votação resetados com sucesso!');
+                location.reload();
+            }
+        });
+    </script>
+    
 </body>
 </html>
